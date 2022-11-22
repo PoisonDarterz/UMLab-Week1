@@ -26,10 +26,9 @@ public class l4q3 {
         } while (true);
         avg = (double) sum / count;
         stddev = Math.sqrt((sumsquare - (Math.pow(sum, 2) / count)) / count-1);
-        System.out.println(sumsquare);
         System.out.println("The minimum score is " + minscore);
         System.out.println("The maximum score is " + maxscore);
         System.out.println("The average score is " + avg);
-        System.out.println("The standard deviation is " + stddev);
+        System.out.printf("The standard deviation is %.2f", stddev);
     }
 }
