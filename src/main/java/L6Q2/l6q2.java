@@ -1,0 +1,34 @@
+package L6Q2;
+
+public class l6q2 {
+    static void multiPrint(int n, char c){
+        for (int i = 0; i < n; i++){
+            System.out.print(c);
+        }
+    }
+
+    public static void main(String[] args) {
+        multiPrint(2, ' ');
+        multiPrint(1, '*');
+        System.out.println();
+        multiPrint(1, ' ');
+        multiPrint(2, '*');
+        System.out.println();
+        multiPrint(3, '*');
+        System.out.println("\n");
+
+        multiPrint(2, ' ');
+        multiPrint(1, '*');
+        System.out.println();
+        multiPrint(1, ' ');
+        multiPrint(3, '*');
+        System.out.println();
+        multiPrint(5, '*');
+        System.out.println();
+        multiPrint(1, ' ');
+        multiPrint(3, '*');
+        System.out.println();
+        multiPrint(2, ' ');
+        multiPrint(1, '*');
+    }
+}
