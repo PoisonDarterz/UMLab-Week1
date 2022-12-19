@@ -25,5 +25,4 @@ public class Q2_2015 {
         } while (true);
         System.out.printf("Total sales: RM%.2f", total);
     }
-
 }
