@@ -46,7 +46,7 @@ public class l5q5 {
         System.out.println();
 
         // binary search with descending array
-        int low = 0, high = 19, mid = 0, count = 0;
+        int low = 0, high = 19, mid = 0, count = 1;
         while (low <= high){
             mid = (low + high)/2;
             if (num[mid] == search){
