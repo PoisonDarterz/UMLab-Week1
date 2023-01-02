@@ -10,25 +10,25 @@ public class Game {
     private int sum = 0;
 
     public Game(String n){
-        name = n;
+        this.name = n;
     }
 
     public void play(){
         int dice = rng.nextInt(6) + 1;
         System.out.println(name + ": " + dice);
-        sum += dice;
+        this.sum += dice;
     }
 
     public void display(){
-        System.out.println(name + ": " + sum);
+        System.out.println(this.name + ": " + this.sum);
     }
 
     public int getSum(){
-        return sum;
+        return this.sum;
     }
 
     public String getName(){
-        return name;
+        return this.name;
     }
 }
 
