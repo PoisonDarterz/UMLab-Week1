@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class l7q1 {
     public static void main(String[] args) {
         try {
-            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("C:\\Users\\jcchu\\OneDrive - Universiti Malaya\\UM2022-23\\code\\WIX1002_JC\\out\\lab7\\coursename.dat"));
+            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(".\\out\\lab7\\coursename.dat"));
             String[] ccode = {"WXES1116", "WXES1115", "WXES1110", "WXES1112"};
             String[] cname = {"Programming I", "Data Structure", "Operating System", "Computing Mathematics I"};
             for (int i = 0; i < ccode.length; i++) {
@@ -21,7 +21,7 @@ public class l7q1 {
         }
 
         try {
-            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("C:\\Users\\jcchu\\OneDrive - Universiti Malaya\\UM2022-23\\code\\WIX1002_JC\\out\\lab7\\coursename.dat"));
+            ObjectInputStream ois = new ObjectInputStream(new FileInputStream(".\\out\\lab7\\coursename.dat"));
             Scanner sc = new Scanner(System.in);
 
             System.out.print("Enter a course code: ");

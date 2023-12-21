@@ -10,7 +10,7 @@ public class l5q5 {
         int[] num = new int[20];
         System.out.print("List of 20 numbers: ");
         for (int i = 0; i < 20; i++) {
-            num[i] = rng.nextInt(100);
+            num[i] = rng.nextInt(101);
             System.out.print(num[i] + " ");
         }
 

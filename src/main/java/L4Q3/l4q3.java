@@ -6,7 +6,7 @@ import java.lang.Math;
 public class l4q3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int score, minscore = 9999, maxscore = -1, count = 0;
+        int score, minscore = 9999, maxscore = -1, count = 0; //2146483647, -2147483648 (2^31-1, -2^31)
         int sum = 0, sumsquare = 0;
         double avg, stddev;
         do {

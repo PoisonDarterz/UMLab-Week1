@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class l7q5 {
     public static void main(String[] args) {
         try {
-            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("C:\\Users\\jcchu\\OneDrive - Universiti Malaya\\UM2022-23\\code\\WIX1002_JC\\out\\lab7\\person.dat"));
+            ObjectInputStream ois = new ObjectInputStream(new FileInputStream(".\\out\\lab7\\person.dat"));
             int total = ois.readInt();
             String[] name = new String[total];
             int[] age = new int[total];

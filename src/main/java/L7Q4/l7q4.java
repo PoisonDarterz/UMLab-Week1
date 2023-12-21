@@ -7,7 +7,7 @@ public class l7q4 {
     public static void main(String[] args) {
         int charcount = 0, wordcount = 0, linecount = 0;
         try {
-            Scanner sc = new Scanner(new FileInputStream("C:\\Users\\jcchu\\OneDrive - Universiti Malaya\\UM2022-23\\code\\WIX1002_JC\\out\\lab7\\lecturer.txt"));
+            Scanner sc = new Scanner(new FileInputStream(".\\out\\lab7\\lecturer.txt"));
             while (sc.hasNextLine()) {
                 String line = sc.nextLine();
                 linecount++;

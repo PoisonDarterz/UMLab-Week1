@@ -7,7 +7,7 @@ public class l6q5 {
     static boolean checkAns(int a, int b, int c){
         return a*b == c;
     }
-
+ 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rng = new Random();

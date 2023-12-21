@@ -12,7 +12,7 @@ public class l7q2 {
             URLConnection cnn = u.openConnection();
             InputStream stream = cnn.getInputStream();
             Scanner in = new Scanner(stream);
-            PrintWriter pw = new PrintWriter(new FileOutputStream("C:\\Users\\jcchu\\OneDrive - Universiti Malaya\\UM2022-23\\code\\WIX1002_JC\\out\\lab7\\index.htm"));
+            PrintWriter pw = new PrintWriter(new FileOutputStream(".\\out\\lab7\\index.htm"));
             while (in.hasNext()) {
                 pw.println(in.nextLine());
             }

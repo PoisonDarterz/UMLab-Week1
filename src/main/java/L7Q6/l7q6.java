@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class l7q6 {
     public static void main(String[] args) {
         try {
-            Scanner prod = new Scanner(new FileInputStream("C:\\Users\\jcchu\\OneDrive - Universiti Malaya\\UM2022-23\\code\\WIX1002_JC\\out\\lab7\\product.txt"));
-            Scanner ord = new Scanner(new FileInputStream("C:\\Users\\jcchu\\OneDrive - Universiti Malaya\\UM2022-23\\code\\WIX1002_JC\\out\\lab7\\order.txt"));
+            Scanner prod = new Scanner(new FileInputStream(".\\out\\lab7\\product.txt"));
+            Scanner ord = new Scanner(new FileInputStream(".\\out\\lab7\\order.txt"));
             ArrayList<String> prodID = new ArrayList<String>();
             ArrayList<String> prodName = new ArrayList<String>();
             ArrayList<Double> prodPrice = new ArrayList<Double>();
