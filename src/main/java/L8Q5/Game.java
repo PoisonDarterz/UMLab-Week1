@@ -48,6 +48,7 @@ class l8q5 {
         }
         g1.display();
         g2.display();
+        
         if (g1.getSum() > g2.getSum()){
             System.out.println(g1.getName() + " wins!");
         } else if (g2.getSum() > g1.getSum()){

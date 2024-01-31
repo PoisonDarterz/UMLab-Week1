@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab10;
+package L10Q2;
 
 /**
  *
@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.FileWriter;
 import java.io.FileReader;
+
 public class L10Q2 {
     public static void main(String[] args) {
         substitutionCipher complex = new substitutionCipher(".\\plaintext.txt",".\\outputFile.txt",10);

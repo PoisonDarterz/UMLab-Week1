@@ -1,4 +1,4 @@
-package lab10;
+package L10Q1;
 
 public class L10Q1 {
     public static void main(String[] args) {
@@ -8,10 +8,10 @@ public class L10Q1 {
     }
 }
 
-abstract class employee{
+abstract class Employee{
     private String name,type;
     protected double totalSalary;
-    employee(String name, String type){
+    Employee(String name, String type){
         this.name = name;
         this.type = type;
     }
@@ -26,7 +26,7 @@ abstract class employee{
     public abstract void displayTotalSalary();
 }
 
-class permanentEmployee extends employee{
+class permanentEmployee extends Employee{
     private char category;
     permanentEmployee(String name , char category){
         super(name,"permanent employee");
@@ -52,7 +52,7 @@ class permanentEmployee extends employee{
     }
 }
         
-class contractStaff extends employee{
+class contractStaff extends Employee{
     private double totalSales;
     contractStaff(String name , double totalSales){
         super(name,"contract staff");
@@ -68,7 +68,7 @@ class contractStaff extends employee{
     }
 }
 
-class temporaryStaff extends employee{
+class temporaryStaff extends Employee{
     private int workHour;
     temporaryStaff(String name , int workHour){
         super(name,"temporary staff");

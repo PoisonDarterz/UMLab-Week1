@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab10;
+package L10Q3;
 
 /**
  *
@@ -10,7 +10,7 @@ package lab10;
  */
 import java.util.*;
 import java.io.*;
-public class L10Q3 {
+public class L10Q3 { // l10 q4
     public static void main(String[] args) {
         appointment app1 = new appointment("2023/1/12");
         app1.writeAppointment(900, 1100);
