@@ -11,5 +11,18 @@ public class Figure {
         System.out.println("*       *    *     *      *        *   *");
         System.out.println("*       *     *   *       *         * *");
         System.out.println("*********      ***        *          *");
+
+
+        System.out.println("""
+*********      ***        *          *
+*       *     *   *      ***        * *
+*       *    *     *    *****      *   *
+*       *    *     *      *       *     *
+*       *    *     *      *      *       *
+*       *    *     *      *       *     *
+*       *    *     *      *        *   *
+*       *     *   *       *         * *
+*********      ***        *          *
+                """);
     }
 }
